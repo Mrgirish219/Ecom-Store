@@ -1,0 +1,802 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f2;
+}
+
+/* Navbar */
+.nav1 {
+  background: #131921;
+  height: 3.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: flex-end;
+  margin-left: -1rem;
+  margin-top: 1rem;
+}
+.logo img {
+  width: 6rem;
+}
+.logo span {
+  margin-left: 0.2rem;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  /* font-size: 1.5vw; */
+}
+
+/* Location */
+.location {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+.location img {
+  width: 1.3rem;
+  margin-right: 0.1rem;
+  margin-top: 0.7rem;
+}
+.location .small {
+  font-size: 12px;
+  /* font-size: 1.2vw; */
+  opacity: 0.7;
+}
+.location p {
+  font-size: 14px;
+  /* font-size: 1.3vw; */
+  line-height: 1.1;
+}
+
+/* Search */
+.search {
+  display: flex;
+  align-items: center;
+  width: 38.5rem;
+  height: 2.5rem;
+  background: white;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+.search select {
+  height: 100%;
+  width: 3rem;
+  border: none;
+  background: #f3f3f3;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  appearance: none;
+}
+.search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+}
+.search-icon {
+  background: #febd69;
+  border: none;
+  height: 100%;
+  width: 2.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-icon img {
+  width: 1.2rem;
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.flag img {
+  width: 1.4rem;
+  margin-right: 0.2rem;
+}
+.flag select {
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.account,
+.orders {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.account span,
+.orders span {
+  font-size: 12px;
+  /* font-size: 1.2vw; */
+}
+.account p,
+.orders p {
+  font-size: 14px;
+  /* font-size: 1.5vw; */
+  font-weight: bold;
+}
+
+/* Cart */
+.cart {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.cart img {
+  width: 2rem;
+  margin-right: 0.2rem;
+}
+.cart p {
+  font-weight: bold;
+  font-size: 14px;
+  /* font-size: 1vw; */
+}
+
+/* nav2 */
+.nav2 {
+  width: 100%;
+  height: 2.35rem;
+  background-color: #232f3d;
+  /* margin-top: 4rem; */
+}
+
+.nav2 a {
+  width: 100%;
+  height: 2.4rem;
+  background-color: #232f3d;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  text-decoration: none;
+}
+.nav2 a div {
+  color: white;
+  margin-top: 0.5rem;
+  font-size: 14px;
+  /* font-size: rem; */
+}
+.c0 {
+  font-weight: bold;
+}
+
+/* main */
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 5rem;
+  gap: 1rem;
+}
+
+.section .card,
+.section .cardd {
+  /* width: 30vw;
+  height: 60vh; */
+  width: 19.5rem;
+  height: 26.2rem;
+  background: white;
+  padding: 1rem;
+}
+
+.section .card h2,
+.section .cardd h2 {
+  height: 2rem;
+  font-size: 19px;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.section .card1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-left: 0.2em;
+  margin-right: 0.2rem;
+}
+
+.card .images,
+.cardd .images {
+  text-align: center;
+  font-size: 11px;
+}
+
+.cardd .images img {
+  width: 100%;
+  height: 7rem;
+  object-fit: cover;
+  margin-top: 0.2rem;
+}
+.card .images img {
+  width: 100%;
+  height: 6rem;
+  /* width: 8vw;
+  height: 10vh; */
+  object-fit: cover;
+  margin-top: 1rem;
+}
+.sp1 {
+  margin-left: -2.5rem;
+}
+.sp3 {
+  margin-left: -3.7rem;
+}
+
+.explore {
+  display: block;
+  margin-top: 2.5rem;
+  color: #007185;
+  font-size: 14px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* sign in */
+
+.si1 {
+  width: 100%;
+  height: 10.4rem;
+  background-color: white;
+  margin-bottom: -2rem;
+}
+.sign {
+  width: 100%;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin-top: 6rem;
+  /* margin-bottom: -4rem; */
+}
+.sign .see {
+  margin-top: 2.5rem;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sign .in {
+  width: 13rem;
+  height: 2rem;
+  border-radius: 2rem;
+  /* padding: 5px 11px; */
+  background-color: #fdd813;
+  text-align: center;
+  margin-left: 4rem;
+  padding: 5px 11px;
+}
+.sign .in > span {
+  padding: 1rem;
+}
+
+.sign .start {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 0.3rem;
+  margin-left: -1.8rem;
+}
+
+/* back */
+.p1 {
+  width: 100%;
+  height: 3rem;
+  background-color: #364759;
+  font-size: 13px;
+  /* margin-top: -5rem; */
+}
+
+.p1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* footer */
+.foot {
+  width: 100%;
+  height: 24rem;
+  /* margin-top: 3rem; */
+  /* height: 30rem; */
+  background-color: #232f3f;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.ab {
+  margin-top: -0.1rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 4rem;
+}
+.ab .about,
+.contact,
+.Money,
+.Help {
+  margin-top: 2.5rem;
+}
+.ab .about p,
+.contact p,
+.Money p,
+.Help p {
+  color: white;
+  font-weight: bold;
+}
+/* ul */
+ul {
+  list-style-type: none;
+}
+li {
+  color: white;
+  opacity: 0.9;
+  padding: 0.1rem;
+  margin-top: 0.5rem;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+/* hr */
+.hr1 {
+  width: 100%;
+  height: 0.2px;
+  opacity: 0.1;
+  background-color: black;
+}
+.hr {
+  width: 100%;
+  height: 0.2px;
+  opacity: 0.1;
+  background-color: white;
+}
+
+/* footer 2 */
+.foot2 {
+  width: 100%;
+  height: 7rem;
+  background-color: #232f3f;
+  display: flex;
+  justify-content: center;
+}
+.foot2 div img {
+  width: 5rem;
+  margin-top: 2rem;
+}
+.fotmid p img {
+  width: 1rem;
+  padding-right: 0.2rem;
+  margin-top: -2rem;
+  margin-left: -3rem;
+  text-align: center;
+}
+.fotmid p {
+  color: white;
+  border: solid white 0.1rem;
+  width: 9rem;
+  height: 2rem;
+  margin-top: 1.8rem;
+  margin-left: 4.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 13px;
+  opacity: 0.8;
+}
+/* flag */
+.india {
+  border: solid white 1px;
+  border-radius: 3px;
+  width: 6rem;
+  height: 2rem;
+  margin-top: 1.8rem;
+  margin-left: 0.8rem;
+  padding-left: 0.1rem;
+  font-size: 13px;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+}
+.foot2 .india img {
+  width: 1.2rem;
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+}
+.india p {
+  color: white;
+  margin-top: 0.4rem;
+  margin-right: 2rem;
+}
+
+/* foot 3 */
+.foot3 {
+  width: 100%;
+  height: 16rem;
+  background-color: #131a21;
+}
+.foot3 .foot-main {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  gap: 5rem;
+  color: white;
+  font-size: 12px;
+}
+
+.foot-main {
+  margin-left: 10rem;
+  margin-right: 22rem;
+}
+.fotnav {
+  margin-top: 2rem;
+}
+.fotnav h5 {
+  font-size: 13px;
+  opacity: 0.8;
+  font-weight: normal;
+}
+.fotnav span {
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+/* last */
+.last1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  /* margin-right: 5rem; */
+}
+
+.last {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+/*  RESPONSIVE BREAKPOINTS */
+
+/* Large tablets (<=1024px) */
+@media (max-width: 1024px) {
+  .navbar1 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .search {
+    width: 50%;
+    margin: 0rem;
+  }
+  /* .account span p{
+    font-size: -1px;
+  } */
+  .navbar1 span {
+    font-size: 11px;
+  }
+  .navbar1 .account p {
+    font-size: 11px;
+  }
+  .navbar1 p {
+    font-size: 11px;
+  }
+  /* .navbar1 .flag select{
+        font-size: 10px;
+    } */
+  .cart img {
+    width: 1.5rem;
+  }
+
+  /* section */
+
+  .s4 {
+    display: none;
+  }
+
+  .nav2 a div {
+    font-size: 13px;
+  }
+  .nav2 a {
+    /* font-size: 13px; */
+    gap: 0.5rem;
+  }
+  /* sign in */
+  .sign .in {
+    width: 10rem;
+    margin-left: 6.5rem;
+  }
+  .sign .start {
+    margin-right: -2rem;
+  }
+  /* foot 3 */
+
+  .foot3 .foot-main {
+    gap: 1rem;
+  }
+
+  .foot-main {
+    margin-left: 6rem;
+  }
+  .fotnav {
+    margin-top: 2rem;
+  }
+  .fotnav h5 {
+    font-size: 13px;
+  }
+  .fotnav span {
+    opacity: 0.5;
+    font-size: 12px;
+  }
+}
+
+/* Tablets / small laptops (<=768px) */
+@media (max-width: 768px) {
+  .navbar1 {
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0.5rem;
+    height: auto;
+    justify-content: space-evenly;
+  }
+  .search {
+    width: 50%;
+    margin: 0rem;
+  }
+  .navbar1 > .location,
+  .orders,
+  .account,
+  .cc2 {
+    /* width: 3rem;    */
+    display: none;
+  }
+  .cart img {
+    width: 1.5rem;
+  }
+  .logo {
+    width: 7rem;
+    /* margin-top: 2rem; */
+  }
+  .nav2 a div {
+    font-size: 13px;
+  }
+  .nav2 a {
+    /* font-size: 13px; */
+    gap: 0.5rem;
+  }
+  /* section */
+
+  .section .card,
+  .section .cardd {
+    width: 15rem;
+    height: 23rem;
+  }
+  .cardd .images img {
+    height: 5rem;
+  }
+  .card .images img {
+    height: 4rem;
+  }
+  .section .card h2,
+  .section .cardd h2 {
+    font-size: 15px;
+  }
+
+  .s4 {
+    display: none;
+  }
+
+  /* back */
+  .p1 {
+    font-size: 14px;
+  }
+
+  /*  */
+
+  .ab .about p,
+  .contact p,
+  .Money p,
+  .Help p {
+    font-size: 15px;
+  }
+  /* ul */
+  /* ul {
+  list-style-type: none;
+} */
+  li {
+    /* padding: 0.1rem; */
+    margin-top: 0.5rem;
+    font-size: 11px;
+  }
+  /* foot 3 */
+
+  .foot3 .foot-main {
+    gap: 1rem;
+  }
+
+  .foot-main {
+    margin-left: 1rem;
+    margin-right: 3rem;
+  }
+
+  .fotnav h5 {
+    font-size: 10px;
+  }
+  .fotnav span {
+    opacity: 0.5;
+    font-size: 9px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 480px) {
+  .navbar1 {
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0.5rem;
+    height: auto;
+    justify-content: space-evenly;
+  }
+  .search {
+    width: 50%;
+    height: 2rem;
+    /* margin: 0rem; */
+    margin-top: 0.6rem;
+  }
+  .search select,
+  .search-icon {
+    display: none;
+  }
+  .navbar1 > .location,
+  .flag,
+  .orders,
+  .account,
+  .cc1,
+  .cc2 {
+    /* width: 3rem;    */
+    display: none;
+  }
+  .cart img {
+    width: 1.5rem;
+  }
+  .logo {
+    width: 7rem;
+    /* margin-top: 2rem; */
+  }
+  .nav2 a div {
+    font-size: 9px;
+  }
+  .nav2 a {
+    /* font-size: 14rem; */
+    gap: 0.6rem;
+  }
+  /* section */
+
+  .section .card,
+  .section .cardd {
+    width: 20rem;
+    height: 26rem;
+  }
+  .cardd .images img {
+    height: 7rem;
+  }
+  .card .images img {
+    height: 6rem;
+  }
+  .section .card h2,
+  .section .cardd h2 {
+    font-size: 18px;
+  }
+
+  .s3,
+  .s4 {
+    display: none;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    margin-left: 3rem;
+  }
+
+  /* sign in */
+  .sign .in {
+    width: 10rem;
+    margin-left: 6.5rem;
+  }
+  .sign .start {
+    margin-right: -2rem;
+  }
+  /* back */
+  .p1 {
+    font-size: 13px;
+    padding: 0.5rem;
+    height: 2rem;
+  }
+
+  /*  */
+
+  .ab .about p,
+  .contact p,
+  .Money p,
+  .Help p {
+    font-size: 9px;
+    margin-left: 1rem;
+    margin-right: -0.9rem;
+  }
+  /* ul */
+
+  li {
+    font-size: 8px;
+    margin-left: 1rem;
+  }
+
+  .foot2 div img {
+    width: 3rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+  .fotmid p img {
+    width: 0.8rem;
+    margin-top: -2rem;
+    margin-left: -0.5rem;
+  }
+  .fotmid p {
+    margin-left: 2rem;
+    width: 6rem;
+  }
+  .foot2 .india img {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.34rem;
+  }
+  /* foot 3 */
+
+  .foot3 .foot-main {
+    gap: 1rem;
+  }
+
+  .foot-main {
+    margin-left: 1rem;
+    margin-right: 3rem;
+  }
+
+  .fotnav h5 {
+    font-size: 8px;
+  }
+  .fotnav span {
+    opacity: 0.5;
+    font-size: 7px;
+  }
+}
