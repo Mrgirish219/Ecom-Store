@@ -661,10 +661,10 @@ li {
 }
 
 /* Mobiles */
-@media (max-width: 480px) {
+@media (max-width: 425px) {
   .navbar1 {
     flex-direction: row;
-    align-items: stretch;
+    /* align-items: stretch; */
     padding: 0.5rem;
     height: auto;
     justify-content: space-evenly;
@@ -685,7 +685,7 @@ li {
   .account,
   .cc1,
   .cc2 {
-    /* width: 3rem;    */
+    /* width: 100%;    */
     display: none;
   }
   .cart img {
@@ -728,7 +728,7 @@ li {
     display: flex;
     flex-direction: column;
     margin: 2rem;
-    margin-left: 3rem;
+    margin-left: 3.3rem;
   }
 
   /* sign in */
