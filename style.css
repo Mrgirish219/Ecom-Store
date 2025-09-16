@@ -43,7 +43,6 @@ body {
   margin-left: 0.2rem;
   margin-bottom: 1rem;
   font-size: 14px;
-  /* font-size: 1.5vw; */
 }
 
 /* Location */
@@ -61,12 +60,10 @@ body {
 }
 .location .small {
   font-size: 12px;
-  /* font-size: 1.2vw; */
   opacity: 0.7;
 }
 .location p {
   font-size: 14px;
-  /* font-size: 1.3vw; */
   line-height: 1.1;
 }
 
@@ -135,12 +132,10 @@ body {
 .account span,
 .orders span {
   font-size: 12px;
-  /* font-size: 1.2vw; */
 }
 .account p,
 .orders p {
   font-size: 14px;
-  /* font-size: 1.5vw; */
   font-weight: bold;
 }
 
@@ -158,7 +153,6 @@ body {
 .cart p {
   font-weight: bold;
   font-size: 14px;
-  /* font-size: 1vw; */
 }
 
 /* nav2 */
@@ -166,7 +160,6 @@ body {
   width: 100%;
   height: 2.35rem;
   background-color: #232f3d;
-  /* margin-top: 4rem; */
 }
 
 .nav2 a {
@@ -182,7 +175,6 @@ body {
   color: white;
   margin-top: 0.5rem;
   font-size: 14px;
-  /* font-size: rem; */
 }
 .c0 {
   font-weight: bold;
@@ -201,8 +193,6 @@ main {
 
 .section .card,
 .section .cardd {
-  /* width: 30vw;
-  height: 60vh; */
   width: 19.5rem;
   height: 26.2rem;
   background: white;
@@ -240,8 +230,6 @@ main {
 .card .images img {
   width: 100%;
   height: 6rem;
-  /* width: 8vw;
-  height: 10vh; */
   object-fit: cover;
   margin-top: 1rem;
 }
@@ -279,7 +267,6 @@ a {
   justify-content: center;
   background-color: white;
   margin-top: 6rem;
-  /* margin-bottom: -4rem; */
 }
 .sign .see {
   margin-top: 2.5rem;
@@ -291,7 +278,6 @@ a {
   width: 13rem;
   height: 2rem;
   border-radius: 2rem;
-  /* padding: 5px 11px; */
   background-color: #fdd813;
   text-align: center;
   margin-left: 4rem;
@@ -314,7 +300,6 @@ a {
   height: 3rem;
   background-color: #364759;
   font-size: 13px;
-  /* margin-top: -5rem; */
 }
 
 .p1 {
@@ -331,11 +316,7 @@ a {
 .foot {
   width: 100%;
   height: 24rem;
-  /* margin-top: 3rem; */
-  /* height: 30rem; */
   background-color: #232f3f;
-  /* display: flex;
-  justify-content: center; */
 }
 
 .ab {
@@ -478,7 +459,6 @@ li {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-  /* margin-right: 5rem; */
 }
 
 .last {
@@ -489,9 +469,9 @@ li {
   opacity: 0.8;
 }
 
-/*  RESPONSIVE BREAKPOINTS */
+/*  RESPONSIVE */
 
-/* Large tablets (<=1024px) */
+/* Laptop */
 @media (max-width: 1024px) {
   .navbar1 {
     margin-left: 2rem;
@@ -501,9 +481,7 @@ li {
     width: 50%;
     margin: 0rem;
   }
-  /* .account span p{
-    font-size: -1px;
-  } */
+
   .navbar1 span {
     font-size: 11px;
   }
@@ -513,9 +491,6 @@ li {
   .navbar1 p {
     font-size: 11px;
   }
-  /* .navbar1 .flag select{
-        font-size: 10px;
-    } */
   .cart img {
     width: 1.5rem;
   }
@@ -530,7 +505,6 @@ li {
     font-size: 13px;
   }
   .nav2 a {
-    /* font-size: 13px; */
     gap: 0.5rem;
   }
   /* sign in */
@@ -562,13 +536,10 @@ li {
   }
 }
 
-/* Tablets / small laptops (<=768px) */
+/* Tablet */
 @media (max-width: 768px) {
   .navbar1 {
-    flex-direction: row;
-    align-items: stretch;
     padding: 0.5rem;
-    height: auto;
     justify-content: space-evenly;
   }
   .search {
@@ -579,7 +550,6 @@ li {
   .orders,
   .account,
   .cc2 {
-    /* width: 3rem;    */
     display: none;
   }
   .cart img {
@@ -587,13 +557,11 @@ li {
   }
   .logo {
     width: 7rem;
-    /* margin-top: 2rem; */
   }
   .nav2 a div {
     font-size: 13px;
   }
   .nav2 a {
-    /* font-size: 13px; */
     gap: 0.5rem;
   }
   /* section */
@@ -631,20 +599,12 @@ li {
   .Help p {
     font-size: 15px;
   }
-  /* ul */
-  /* ul {
-  list-style-type: none;
-} */
+
   li {
-    /* padding: 0.1rem; */
     margin-top: 0.5rem;
     font-size: 11px;
   }
   /* foot 3 */
-
-  .foot3 .foot-main {
-    gap: 1rem;
-  }
 
   .foot-main {
     margin-left: 1rem;
@@ -662,17 +622,9 @@ li {
 
 /* Mobiles */
 @media (max-width: 425px) {
-  .navbar1 {
-    flex-direction: row;
-    /* align-items: stretch; */
-    padding: 0.5rem;
-    height: auto;
-    justify-content: space-evenly;
-  }
   .search {
     width: 50%;
     height: 2rem;
-    /* margin: 0rem; */
     margin-top: 0.6rem;
   }
   .search select,
@@ -685,21 +637,12 @@ li {
   .account,
   .cc1,
   .cc2 {
-    /* width: 100%;    */
     display: none;
-  }
-  .cart img {
-    width: 1.5rem;
-  }
-  .logo {
-    width: 7rem;
-    /* margin-top: 2rem; */
   }
   .nav2 a div {
     font-size: 9px;
   }
   .nav2 a {
-    /* font-size: 14rem; */
     gap: 0.6rem;
   }
   /* section */
@@ -725,7 +668,7 @@ li {
     display: none;
   }
   main {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     margin: 2rem;
     margin-left: 3.3rem;
